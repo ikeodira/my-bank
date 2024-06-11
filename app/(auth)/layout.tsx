@@ -7,22 +7,20 @@ export default function RootLayout({
 }>) {
   return (
     //After every check kindly revert
-    // <main>
-    //     {children}
-    // </main>
+    <main>{children}</main>
 
-    <main className="flex min-h-screen w-full justify-between">
-      {children}
-      <div className="auth-asset">
-        <div>
-          <Image
-            src="/icons/auth-image.svg"
-            alt="Auth image"
-            width={500}
-            height={500}
-          />
-        </div>
-      </div>
-    </main>
+    // <main className="flex min-h-screen w-full justify-between">
+    //   {children}
+    //   <div className="auth-asset">
+    //     <div>
+    //       <Image
+    //         src="/icons/auth-image.svg"
+    //         alt="Auth image"
+    //         width={500}
+    //         height={500}
+    //       />
+    //     </div>
+    //   </div>
+    // </main>
   );
 }
